@@ -6,20 +6,20 @@
 3. [Prepare Phase: Understanding the Data](#prepare)
 4. [Process Phase: Cleaning and Organizing the Data](#process)
     * 4.1 [Excel](#excel)
-    * 4.2 [Functions used](#functions)
+    * 4.2 [Functions Used](#functions)
     * 4.3 [Data Limitations](#limitations)
 5. [Analyze and Share Phase: What Can We Learn From the Data?](#analyze)
-    * 5.1 [Total revenue by year/quarter/month](#analyze1)
-    * 5.2 [Top 10 countries by total revenue](#analyze2)
-    * 5.3 [Top 10 customers by total revenue](#analyze3)
-    * 5.4 [Top 10 products by total revenue](#analyze4)
-    * 5.5 [Bottom 10 products by total revenue](#analyze5)
-    * 5.6 [20 most returned items](#analyze6)
-    * 5.7 [5 countries with highest return percentage](#analyze7)
+    * 5.1 [Total Revenue by Year/Quarter/Month](#analyze1)
+    * 5.2 [Top 10 Countries by Total Revenue](#analyze2)
+    * 5.3 [Top 10 Customers by Total Revenue](#analyze3)
+    * 5.4 [Top 10 Products by Total Revenue](#analyze4)
+    * 5.5 [Bottom 10 Products by Total Revenue](#analyze5)
+    * 5.6 [20 Most Returned Items](#analyze6)
+    * 5.7 [5 Countries with Highest Return Percentage](#analyze7)
     * 5.8 [Tableau Dashboard](#tableau)
 6. [Act Phase: Conclusions and Recommendations](#act)
-    * 6.1 [Recommendations for the store](#act1)
-    * 6.2 [Recommendations for future analysis](#act2)
+    * 6.1 [Recommendations for the Store](#act1)
+    * 6.2 [Recommendations for Future Analysis](#act2)
 
 <a id="about"></a>
 
@@ -123,71 +123,71 @@ In a real-world scenario I would be asking for clarification on some points:
 
 <a id="analyze1"></a>
 
-#### **Total revenue by year/quarter/month**
+#### **Total Revenue by Year/Quarter/Month**
 
 This pivot table and chart shows the total revenue for all of the data from December 2010 to December 2011 broken down by quarter and month.
 
-
+<img src="Visualizations\Total_Revenue_by_Year_Quarter_Month.png" width="1040px" height="460px">
 
 Key takeaways: Sales are consistent through the Summer months and start to increase in September. Sales peak in December and are likely to fall in January.
 
 <a id="analyze2"></a>
 
-#### **Top 10 countries by total revenue**
+#### **Top 10 Countries by Total Revenue**
 
 This pivot table and chart shows the top 10 countries by total revenue generated for all of the data.
 
-
+<img src="Visualizations\Top_10_Countries_by_Total_Revenue.png" width="1040px" height="460px">
 
 Key takeaways: United Kingdom is the country taht generates the largest amount of revenue by far. Netherlands, EIRE (Ireland), and Germany comprise of the next three largest countries by revenue.
 
 <a id="analyze3"></a>
 
-#### **Top 10 customers by total revenue**
+#### **Top 10 Customers by Total Revenue**
 
 This pivot table and chart shows the top 10 customers by total revenue generated for all of the data.
 
-
+<img src="Visualizations\Top_10_Customers_by_Total_Revenue.png" width="1040px" height="460px">
 
 Key takeaways: There are a lot of sales without an associated CustomerID. For customers with IDs the top three are 14646, 18102, and 17450. It may be worth reaching out to these customers to determine what new products should be offered.
 
 <a id="analyze4"></a>
 
-#### **Top 10 products by total revenue**
+#### **Top 10 Products by Total Revenue**
 
 This pivot table and chart shows the top 10 products by total revenue generated for all of the data. There is a filter applied to remove revenue generated from postage.
 
-
+<img src="Visualizations\Top_10_Products_by_Total_Revenue.png" width="1040px" height="460px">
 
 Key takeaways: The top three products by total revenue generated were the Regency 3 tier cakestand, white hanging heart tealight holder, and party bunting. These are products that should be advertised the most and that the store should have plenty of stock on hand to ensure there are no shortages for orders.
 
 <a id="analyze5"></a>
 
-#### **Bottom 10 products by total revenue**
+#### **Bottom 10 Products by Total Revenue**
 
 This pivot table and chart shows the bottom 10 products by total revenue generated for all of the data. There is a filter applied to remove things such as costs for samples, missing or damaged goods, postage, and bank fees.
 
-
+<img src="Visualizations\Bottom_10_Products_by_Total_Revenue.png" width="1040px" height="460px">
 
 Key takeaways: All of the items shown in this chart have negative revenue generated. These products should be reevaluated to determine if they are worth offering in the future.
 
 <a id="analyze6"></a>
 
-#### **20 most returned items**
+#### **20 Most Returned Items**
 
 This pivot table and chart shows the top 20 most returned items by quantity for all of the data. There is a filter to remove items that have a return rate of over 100%.
 
-
+<img src="Visualizations\20_Most_Returned_Items.png" width="1040px" height="460px">
 
 Key takeaways: All of the items shown in this chart have over a 40% rate of return. The process of shipping or manufacturing these products may be leading to damage or defects when they arrive to customers. These products should be reevaluated to determine if they are worth offering in the future or if there can be improvements made to shipping or manufacturing processes to reduce defects and damages. Additional data about why these products are being returned would allow a more detailed analysis.
 
 <a id="analyze7"></a>
 
-#### **5 countries with highest return percentage**
+#### **5 Countries with Highest Return Percentage**
 
 This pivot table and chart shows the top 5 countries with the highest return percentage for all of the data.
 
-
+<img src="Visualizations\5_Countries_with_Highest_Return_Percentage.png" width="1040px" height="460px">
 
 Key takeaways: The USA has the largest return percentage by far at nearly 58%. There needs to be an investigation into what is causing such a large return percentage. There may be an issue with shipping causing defects and damages before products arrive to customers. Additional dat about why products are being returned would allow a more detailed analysis.
 
@@ -203,7 +203,7 @@ In Tableau I refined the graphs more and created a dashboard for the store to tr
 
 <a id="act1"></a>
 
-#### Recommendations for the store
+#### Recommendations for the Store
 
 * Develop new products or advertise existing products to reduce seasonality of the online store. Currently sales peak in winter months and appear to reduce in spring months.
 
@@ -215,7 +215,7 @@ In Tableau I refined the graphs more and created a dashboard for the store to tr
 
 <a id="act2"></a>
 
-#### Recommendations for future analysis
+#### Recommendations for Future Analysis
 
 * Make the CustomerID field mandatory. There are 135,000 records that don't have a CustomerID filled out. To still be able to track information like "Samples" there can be a CustomerID used for these categories.
 
