@@ -1,4 +1,4 @@
-## Data Analysis of a Fictional UK Online Retail Store Using Microsoft Excel and Tableau
+## Data Analysis of a UK Online Retail Store Using Microsoft Excel and Tableau
 
 ### Table of Contents
 1. [About This Data](#about)
