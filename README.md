@@ -139,7 +139,7 @@ This pivot table and chart shows the top 10 countries by total revenue generated
 
 <img src="Visualizations\Top_10_Countries_by_Total_Revenue.png" width="1040px" height="460px">
 
-Key takeaways: United Kingdom is the country taht generates the largest amount of revenue by far. Netherlands, EIRE (Ireland), and Germany comprise of the next three largest countries by revenue.
+Key takeaways: The United Kingdom is the country that generates the largest amount of revenue by far. The Netherlands, EIRE (Ireland), and Germany comprise of the next three largest countries by revenue.
 
 <a id="analyze3"></a>
 
@@ -189,7 +189,7 @@ This pivot table and chart shows the top 5 countries with the highest return per
 
 <img src="Visualizations\5_Countries_with_Highest_Return_Percentage.png" width="1040px" height="460px">
 
-Key takeaways: The USA has the largest return percentage by far at nearly 58%. There needs to be an investigation into what is causing such a large return percentage. There may be an issue with shipping causing defects and damages before products arrive to customers. Additional dat about why products are being returned would allow a more detailed analysis.
+Key takeaways: The USA has the largest return percentage by far at nearly 58%. There needs to be an investigation into what is causing such a large return percentage. There may be an issue with shipping causing defects and damages before products arrive to customers. Additional data about why products are being returned would allow a more detailed analysis. In this case it was one large order cancellation that caused such a large return percentage.
 
 <a id="tableau"></a>
 
